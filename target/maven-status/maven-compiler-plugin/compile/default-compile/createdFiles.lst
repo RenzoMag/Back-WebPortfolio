@@ -1,4 +1,3 @@
-com\portfolio\Portfolio\WebConfig.class
 com\portfolio\Portfolio\Controller\todocontroller.class
 com\portfolio\Portfolio\model\exp.class
 com\portfolio\Portfolio\PortfolioApplication.class
