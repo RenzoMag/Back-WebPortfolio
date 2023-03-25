@@ -3,6 +3,7 @@ package com.portfolio.Portfolio.Controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -16,6 +17,7 @@ import com.portfolio.Portfolio.Repository.TodoRepositoryexp;
 import com.portfolio.Portfolio.model.Task;
 import com.portfolio.Portfolio.model.exp;
 
+@CrossOrigin(origins = { "https://portfolio-9bdec.web.app/" })
 @RestController
 public class todocontroller {
     @Autowired
