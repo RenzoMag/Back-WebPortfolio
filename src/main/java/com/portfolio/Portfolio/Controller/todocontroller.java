@@ -17,7 +17,7 @@ import com.portfolio.Portfolio.Repository.TodoRepositoryexp;
 import com.portfolio.Portfolio.model.Task;
 import com.portfolio.Portfolio.model.exp;
 
-@CrossOrigin(origins = { "https://portfolio-9bdec.web.app/" })
+@CrossOrigin(origins = { "https://portfolio-9bdec.web.app" })
 @RestController
 public class todocontroller {
     @Autowired
